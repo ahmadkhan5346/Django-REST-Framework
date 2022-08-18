@@ -1,3 +1,7 @@
+from django.shortcuts import render
+
+# Create your views here.
+
 from functools import partial
 from django.shortcuts import render
 import io
