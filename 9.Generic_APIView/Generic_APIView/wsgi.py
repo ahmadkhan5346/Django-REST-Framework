@@ -1,5 +1,5 @@
 """
-WSGI config for class_base_APIView project.
+WSGI config for Generic_APIView project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'class_base_APIView.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Generic_APIView.settings')
 
 application = get_wsgi_application()

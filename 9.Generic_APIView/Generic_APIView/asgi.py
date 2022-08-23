@@ -1,5 +1,5 @@
 """
-ASGI config for class_base_APIView project.
+ASGI config for Generic_APIView project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'class_base_APIView.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Generic_APIView.settings')
 
 application = get_asgi_application()
